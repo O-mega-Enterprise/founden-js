@@ -1,0 +1,43 @@
+{
+  "name": "founden",
+  "version": "0.1.0",
+  "description": "Founden TypeScript SDK. Build and run your company from your AI agent with one API key.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-mega-Enterprise/founden-js.git"
+  },
+  "homepage": "https://founden.ai",
+  "devDependencies": {
+    "typescript": "^5.8.0",
+    "@types/node": "^22.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "founden",
+    "company-builder",
+    "no-code",
+    "ai-agent",
+    "sdk",
+    "website-builder"
+  ]
+}
